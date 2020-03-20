@@ -13,7 +13,7 @@ server = flask.Flask('app')
 
 app = dash.Dash('app', server=server)
 
-app.layout = html.Div([html.H1('Car Counter Coming Soon.')], className="container") 
+app.layout = html.Div([html.H1('Traffic Counter Coming Soon.')], className="container") 
 
 if __name__ == '__main__':
     app.run_server()
